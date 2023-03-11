@@ -7,7 +7,7 @@ void ofApp::setup() {
 	
 	W = 200; //doesn't seem to be able to handle large images
 	H = 200; 
-	img.load("ocean.jpg");
+	img.load("lineflower.png");
 	img.resize(W, H);
 	src = img.getPixels().getData();
 }
